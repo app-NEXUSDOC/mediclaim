@@ -74,13 +74,13 @@
 	</dependencies>
 		<distributionManagement>
     			<snapshotRepository>
-       			<id>nexus</id>
-       			<url>http://13.127.201.222:8081/repository/maven-snapshots/</url>
+       			    <id>nexus</id>
+       			    <url>http://13.127.201.222:8081/repository/maven-snapshots/</url>
     			</snapshotRepository>
-   		 <repository>
-       			<id>nexus</id>
-      			 <url>http://13.127.201.222:8081/repository/maven-releases/</url>
-   		 </repository>
+   		        <repository>
+       			    <id>nexus</id>
+      			    <url>http://13.127.201.222:8081/repository/maven-releases/</url>
+   		        </repository>
  	       </distributionManagement>
 
 	<build>
