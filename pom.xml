@@ -72,8 +72,8 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-		<distributionManagement><url>http://13.127.201.222:8081/repository/maven-snapshots/</url>
-    	        	<snapshotRepository>
+		<distributionManagement>
+		      	<snapshotRepository>
        			 	<id>nexus</id>
        				<url>http://13.127.201.222:8081/repository/maven-snapshots/</url>
     			</snapshotRepository>
